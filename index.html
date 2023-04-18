@@ -4,32 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stardew Valley </title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/media/favicon.ico">
+    <title>Stardew Valley</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+    </style>
 </head>
 
 <body>
+    <div class="wrap">
     <!-- Cabecera -->
     <header>
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Personajes</a></li>
-                <li><a href="#">Cultivos</a></li>
-                <li><a href="#">Pesca</a></li>
-                <li><a href="#">Minería</a></li>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">PERSONAJES</a></li>
+                <li><a href="#">CULTIVOS</a></li>
+                <li><a href="#">PESCA</a></li>
+                <li><a href="#">MINERÍA</a></li>
             </ul>
         </nav>
+            <div>
+            <img id="imagen" src= "https://stardewvalleywiki.com/mediawiki/images/6/68/Main_Logo.png">
+            </div>
     </header>
 
     <!-- Contenido principal -->
     <main>
-        <section>
-            <h1>Bienvenidos a la Wiki de Stardew Valley</h1>
-            <p>La Wiki de Stardew Valley es el recurso definitivo para todos los aspectos del juego. Aquí encontrará
-                información detallada sobre cultivos, pesca, minería, personajes, misiones y más.</p>
+        <section class="bienvenida">
+            <h1>~Bienvenido a <a class="blanco">TU GUÍA</a> de Stardew Valley~</h1>
+            <p>Esta guía es un recurso práctico para todos los aspectos del juego. Aquí encontrarás
+                información necesaria sobre cultivos, pesca, minería, personajes, misiones, cumpleaños y más.</p>
         </section>
-
+        <section>
+            <form>
+                <p  class="selec"> Selecciona tu tipo de granja: </p>
+                 <select name="granja">
+                   <option>estandar/básica </option>
+                   <option>fluvial</option>
+                   <option>forestal</option>
+                   <option>minera</option>
+                   <option>salvaje</option>
+                 </select>
+               </form>
+        </section>
         <section>
             <h2>Personajes</h2>
             <ul>
@@ -67,8 +86,7 @@
 
         <section>
             <h2>Cultivos</h2>
-            <p>En esta sección encontrará información sobre todos los cultivos disponibles en Stardew Valley, así como
-                consejos para cultivarlos y maximizar sus ganancias.</p>
+            <p>Consejos para cultivarlos y maximizar sus ganancias.</p>
             <ul>
                 <li><a href="#">Ajo</a></li>
                 <li><a href="#">Arándanos</a></li>
@@ -95,8 +113,7 @@
         </section>
         <section>
             <h2>Pesca</h2>
-            <p>En esta sección encontrará información sobre todas las especies de peces disponibles en Stardew Valley,
-                así como consejos y trucos para convertirse en un pescador experto.</p>
+            <p>Consejos y trucos para convertirse en un pescador experto.</p>
             <ul>
                 <li><a href="#">Almeja</a></li>
                 <li><a href="#">Anguila</a></li>
@@ -121,8 +138,7 @@
 
         <section>
             <h2>Minería</h2>
-            <p>En esta sección encontrará información sobre las minas de Stardew Valley, así como consejos y trucos para
-                extraer los materiales más valiosos y derrotar a los monstruos que acechan en su interior.</p>
+            <p>Consejos y trucos para extraer los materiales más valiosos y derrotar a los monstruos que acechan en su interior.</p>
             <ul>
                 <a href="#">Cobre</a></li>
                 <li><a href="#">Hierro</a></li>
@@ -143,7 +159,7 @@
         </section>
         <section>
             <h2>Eventos</h2>
-            <p>En esta sección encontrará información sobre los eventos que ocurren en el juego a lo largo del año, así como fechas y detalles importantes para no perdérselos.</p>
+            <p>Fechas y detalles importantes para no perdérselos.</p>
             <ul>
                 <li><a href="#">Festival de la primavera</a></li>
                 <li><a href="#">Festival de la floración</a></li>
@@ -163,19 +179,11 @@
                 <li><a href="#">Chat de voz</a></li>
             </ul>
         </section>
-    
-        <section>
-            <h2>Descargas y actualizaciones</h2>
-            <p>En esta sección encontrará información sobre cómo descargar y actualizar el juego, así como las últimas novedades y cambios en las distintas versiones del mismo.</p>
-            <ul>
-                <li><a href="#">Descarga del juego</a></li>
-                <li><a href="#">Actualizaciones</a></li>
-                <li><a href="#">Cambios en la versión 1.5</a></li>
-            </ul>
-        </section>
-    
+
         <footer>
-            <p>&copy; 2023 Stardew Valley Wiki</p>
+            <p>&copy; 2023 Stardew Valley Guía</p>
         </footer>
+        </main>
+    </div>
 </body>
 </html>

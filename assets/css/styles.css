@@ -1,0 +1,55 @@
+header {
+  font-family: 'Delicious Handrawn';
+}
+.bienvenida {
+  font-family: 'Delicious Handrawn';
+}
+.blanco {
+  color: white;
+}
+body {
+  text-align: center;
+  margin: 0;
+  background: url(../media/Fondo_montañas_StardewValley.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+ }
+
+ #imagen {
+  margin: 1vw 0 0 0;
+  width: 70vw;
+}
+
+@media only screen and (min-width: 410px) {
+  #imagen {width: 300px;}
+}
+
+.wrap {
+  margin: 0;
+  backdrop-filter: blur(10px);
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #13005A;
+}
